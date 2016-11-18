@@ -1,0 +1,152 @@
+/* General
+==================================*/
+h1 {
+    color: #fff;
+    text-shadow: 0 1px 0px #000;
+    font-size: 42px;
+}
+
+
+/* Utilities
+==================================*/
+.title-bordered {
+    border-top: solid 2px #bbb;
+    padding-top: 30px;
+}
+
+p {
+    color: #555;
+    margin: 0 0 25px;
+}
+
+.scroll {
+    height: 100%;
+}
+
+
+/* Menu
+==================================*/
+.menu .bar.bar-header.expanded {
+    transition: all .5s ease-in-out;
+}
+
+.menu-open .bar.bar-header.expanded {
+    background-color: #222;
+}
+
+.menu h2 {
+    bottom: 0;
+    font-size: 18px;
+    left: 16px;
+    position: absolute;
+}
+
+.menu .avatar {
+    height: 88px;
+    width: 88px;
+}
+
+.menu.menu-left * {
+    font-weight: bold;
+}
+
+.menu-open .ion-navicon {
+    transform: rotate(-360deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-open .ion-navicon:before {
+    content: "\f2ca";
+}
+
+
+/* Login
+==================================*/
+.app-icon {
+    background-color: #fff;
+    background: url('../img/crown.jpg') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 125px;
+    margin: 0 auto;
+    width: 125px;
+}
+
+.social-login {
+    margin:0px;
+
+}
+
+.hero+.button-bar{
+    margin-top:20px;
+    margin-bottom: 20px
+}
+.padding {
+    padding: 1px 16px 0px 12px!important;
+}
+.create-account {
+    margin: 10px 18px 0px 12px;
+}
+.list {
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 28px;
+    margin-bottom: 20px;
+}
+
+.app-header {
+    background: #8e499c;
+    height: 70px;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center
+}
+
+.ou {
+    text-align: center;
+    margin-bottom: -18px;
+}
+
+.item-md-label {
+    padding: 26px 0 0;
+}
+
+.nil-pub {
+    text-align: center;
+    margin-top: 58px;
+    margin-left: 25px;
+}
+
+.hero>.content>.avatar {
+    margin-bottom: 0px;
+}
+.light, .light *, .light:active, .light:active *, .light:hover, .light:hover * {
+    color: #8e499c;
+}
+
+.light, a.light {
+    color:  #8e499c;
+}
+
+.hero>.content>.avatar {
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+.bar.bar-header .button+.title {
+    text-align: center;
+    line-height: 46px;
+}
+
+.logo-menu {
+    background: url('../img/crown.jpg') center;
+    background-size: cover;
+}
+.description {
+    height: 116px;
+    overflow: hidden;
+}

@@ -1,0 +1,28 @@
+<ion-view view-title="Login" align-title="left">
+    <ion-content style="background: url(img/login.jpg) center; background-size: cover;">
+        <div class="app-header">
+          <img style="margin-top:10px" src="img/yoga.png">
+        </div>
+        <div class="hero header flat" style="height: 130px;margin-bottom: -12px;">
+            <div class="content">
+                <h4 style="color:#4b4a4b">Login com: {{error}}</h4>
+            </div>
+        </div>
+        <div class="button-bar social-login">
+            <button ng-click="login('google')" class="button button-small button-border icon-left ion-social-google button-energized-900">Google+</button>
+            <button ng-click="login('facebook')" class="button button-small button-border icon-left ion-social-facebook button-royal">Facebook</button>
+        </div>
+        <div class="content ou"><h6 style="color:#4b4a4b"> Ou </h6>
+        </div>
+        <div class="list">                      
+            <ion-md-input ng-model="registrationData.email" placeholder="e-mail" highlight-color="balanced" type="text"></ion-md-input>
+            <ion-md-input ng-model="registrationData.password" placeholder="senha" highlight-color="energized" type="password"></ion-md-input>
+        </div>
+        <div class="padding">
+            <button ng-click="login('email')" class="button button-full button-royal ink">Login</button>
+        </div>
+        <div class="create-account">
+            <button ui-sref="app.sign-up" class="button button-full button-energized-900 ink">Criar Conta</button>
+        </div>
+    </ion-content>
+</ion-view>

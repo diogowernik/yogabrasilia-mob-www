@@ -1,0 +1,31 @@
+<ion-view view-title="Cartões de Visitas">
+    <ion-content ng-class="{expanded:$scope.isExpanded}">
+        <div class="hero slide-up" style="background-image: url('img/login.jpg'); height:112px">
+            <div class="content">
+                <div class="avatar" style="background-image: url('img/diogo-wernik.jpg');"></div>
+                <div style="float: right; margin: 25px 25px 0px 0px;"><h3 style="margin-bottom:5px"><a class="light">Diogo Wernik</a></h3></div>
+              
+            </div>
+        </div>
+        <div class="tabs tabs-royal tabs-icon-top static">
+            <a ui-sref="app.profile" class="tab-item">
+                <i class="icon ion-ios-book-outline"></i> Mural
+            </a>
+            <a ui-sref="app.my-cards" class="tab-item">
+                <i class="icon ion-ios-folder-outline"></i> Cartões
+            </a>
+            <a ui-sref="app.conversation" class="tab-item">
+                <i class="icon ion-ios-bell-outline"></i> Mensagens
+            </a>
+            <a ui-sref="app.config" class="tab-item">
+                <i class="icon ion-ios-gear-outline"></i> Configuração
+            </a>
+        </div>
+        <h4 class="content padding double-padding-x">Cartões de Visitas</h4>
+        <div class="list animate-fade-slide-in-right">
+          <div class="nil-pub">
+            <p>Você ainda não possui cartões de visitas</p>
+          </div>
+        </div>
+    </ion-content>
+</ion-view>
